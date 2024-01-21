@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color:rgb(20, 19, 19);
+    padding: 90px 50px;
+  }
+  .footer,
+  .navigation,
+  .navigation-content,
+  .icon,
+  .privacy,
+  .terms,
+  .terms-image {
+    color: white;
+  }
+  .venture {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navigation {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navigation-content {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .privacy {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .term-icon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

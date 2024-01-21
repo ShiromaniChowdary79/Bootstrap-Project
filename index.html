@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Bootstrap project</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: red ;font-family:cursive; font-size:30px;">H&M</a>
+        <button type="button" class="btn btn-secondary">
+          Offers <span class="badge bg-danger">10+</span>
+        </button>
+        <!-- <h2<a class="navbar-brand" href="#">H&M</a></h2> -->
+        <!-- <a href="navbar-brand"><img src="download (1).png " alt=""></a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <!-- <a class="nav-link" href="#">sale</a> -->
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Women</a></li>
+                <li><a class="dropdown-item" href="#">Men</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="#">kids Wear</a></li>
+              </ul>
+            </li>
+           
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid bg-light py-5">
+      <div class="details d-flex justify-content-center align-items-center gap-5 ">
+        <!-- <img src="download.png" alt=""> -->
+        
+        <p>Estimated delivery:3days</p>
+        <p>free shipping</p>
+        <p>Return policy</p>
+      </div>
+      <div class="container">
+        <img src="./Images/hm.jpg"class="img-fluid w-30" alt="">
+        </div>
+      </section>
+  <div class="container text-center">
+    <div class="d-flex justify-content-center align-items-center gap-5">
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/hmgoepprod.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Broderie anglaise poplin shirt</h5>
+          <p class="card-text">Rs. 7,999.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/hmgoepprod (1).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Deep-back blouse Sequined top</h5>
+          <p class="card-text">Rs. 1,999.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/hmgoepprod (2).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Oversized motif-detail sweatshirt</h5>
+          <p class="card-text">Rs. 2,299.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/hmgoepprod (3).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Denim cargo trousers</h5>
+          <p class="card-text">Rs. 2,299.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/hmgoepprod (4).jpeg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vintage Straight High Jeans</h5>
+          <p class="card-text">Rs. 2,299.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid bg-secondary px-5">
+    <div class="images d-flex justify-content-center align-items-center w-100">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./Images/image 1.jpeg" class="d-block" alt="..." width="400" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5 text-white">Jacquard-knit jumper</h5>
+              <p class="p text-white">Rs. 1,599.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Images/image 3.jpeg" class="d-block " alt="..." width="400" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5 text-white">Draped one-shoulder dress</h5>
+              <p class="p text-white">Rs. 2,299.00</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/image 4.jpeg" class="d-block " alt="..." width="400" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h5 text-white">Bow-front top</h5>
+              <p class="p text-white">Rs. 3,599.00</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </section>
+  <div>
+    <div class="container text-center">
+      <div class="d-flex justify-content-center align-items-center gap-5">
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/hmgoepprod.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Broderie anglaise poplin shirt</h5>
+            <p class="card-text">Rs. 7,999.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/hmgoepprod (1).jpeg " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deep-back blouse Sequined top</h5>
+            <p class="card-text">Rs. 1,999.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/hmgoepprod (2).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Oversized motif-detail sweatshirt</h5>
+            <p class="card-text">Rs. 2,299.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/hmgoepprod (3).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Denim cargo trousers</h5>
+            <p class="card-text">Rs. 2,299.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/hmgoepprod (4).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vintage Straight High Jeans</h5>
+            <p class="card-text">Rs. 2,299.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content d-flex justify-content-center align-items-center p-5 ">
+    <div class="card bg-dark text-white">
+      <img src="./Images/logo1.jpg" class="card-img" alt="..." width="300" height="500">
+      <div class="card-img-overlay">
+        <!-- <h2 class="card-title">New Collection</h2> -->
+             <h2 class="h2 text-dark">New Collection</h2>
+        <!-- <p class="card-text"></p> -->
+        <p class="p text-dark">Starting Rs.799</p>
+        <button class="button bg-secondary text-white">Shop now</button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div class="dropdown d-flex p-5">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Sort by
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="#">Price</a></li>
+            <li><a class="dropdown-item" href="#">Low to High</a></li>
+            <li><a class="dropdown-item" href="#">High to Low</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">Discount</a></li>
+            <li><a class="dropdown-item" href="#">Popularity</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="d-flex justify-content-center align-items-center gap-5">
+          <div class="card" style="width: 18rem;">
+            <img src="./Images/men 1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Broderie anglaise poplin shirt</h5>
+              <p class="card-text">Rs. 7,999.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Images/men2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Deep-back blouse Sequined top</h5>
+              <p class="card-text">Rs. 1,999.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Images/men3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oversized motif-detail sweatshirt</h5>
+              <p class="card-text">Rs. 8,299.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Images/men4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Denim cargo trousers</h5>
+              <p class="card-text">Rs. 6,299.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Images/men6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vintage Straight High Jeans</h5>
+              <p class="card-text">Rs. 4,299.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="forms w-50 d-flex justify-content-center align-items-center text-primary p-5 m-auto">
+      <form>
+        <div class="mb-3  m-auto">
+          <h2 class="h2 text-dark">Sign up for more</h2>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="footer w-100 h-50 d-flex justify-content-center align-items-center">
+      <div class="footer">
+        <div class="venture">
+          <h3>Venture Capital</h3>
+          <p>Lorem Ipsum is simply dummy text <span></span>of the printing and typesetting industry. Lorem.</p>
+        </div>
+        <div class="navigation">
+          <h4>Navigation</h4>
+          <p>people</p>
+          <p>Portfolios</p>
+          <p>Webinars & Blogs</p>
+        </div>
+        <div class="navigation-content">
+          <div class="icon-content">
+            <h4>Get in Touch</h4>
+            <div class="icon">
+              <img src="Icon simple-webpack.png" alt="">
+              <p>todaywebuikit.com</p>
+            </div>
+            <div class="icon">
+              <img src="Icon zocial-email.png" alt="">
+              <p></p>hello@email.com</p>
+            </div>
+            <div class="icon">
+              <img src="Icon awesome-phone-square-alt.png" alt="">
+              <p>+377 8832 9903</p>
+            </div>
+          </div>
+        </div>
+        <div class="privacy">
+          <p>Privacy policy</p>
+        </div>
+        <div class="terms-icon">
+          <div class="terms">
+            <h5>Terms & Conditions</h5>
+          </div>
+          <div class="terms-image">
+            <img src="./Images/Group 31.png" alt="">
+          </div>
+         
+      </div>
+      </div>
+    </div>
+    <div class="site d-flex justify-content-center align-items-center ">
+      <p class="p text-dark">The content of this site is copyright-protected and is the property of H & M Hennes & Mauritz
+         </div>
+         <div class="INDIA d-flex justify-content-center align-items-center">
+          <h2 class="h2 text-danger">H&M</h2>
+        </div>
+        <div class="pagi d-flex justify-content-center align-items-center">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </body>
+</html>
